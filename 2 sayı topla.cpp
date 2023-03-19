@@ -6,7 +6,7 @@ int main()
    int s1,s2,toplam;
    cout<<"1. Sayiyi Girin : ";
    cin>>s1;
-   cout<<"2. Sayiyi : ";
+   cout<<"2. Sayiyi Girin: ";
    cin>>s2;
    toplam=s1+s2;
    cout<<"Sayilarin Toplami : "<<toplam;
