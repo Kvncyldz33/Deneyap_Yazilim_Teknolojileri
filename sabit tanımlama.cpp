@@ -11,3 +11,8 @@ int main()
 
     return(0);
 }
+
+/* Sabitleri ayýrmak için aþaðýdaki üç kural:
+1) “const” anahtar sözcüðünü kullanarak tanýmlarýz.
+2) Sabit adlarý, deðiþken adlarýndan ayýrt etmek için büyük harfle yazýlýr.
+3) Sabitler her zaman tanýmlama sýrasýnda deðerlerini almalýdýr. */
