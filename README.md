@@ -1,2 +1,2 @@
-# Deneyap_Yazilim_Teknolojileri
+# Deneyap Yazilim Teknolojileri
  
