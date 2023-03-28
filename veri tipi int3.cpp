@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-    int yas = 15;
-    int kilo = 52;
-    int boy = 167;
+    int yas = 11;
+    int kilo = 37;
+    int boy = 156;
     cout << "Benim yasim: " << yas;
     cout << ", Kilom: " << kilo;
-    cout << " ve Boyum: " << boy;
+    cout << " ve Boyum: " << boy<<" cm. dir.";
     return 0;
 }
