@@ -1,6 +1,6 @@
-#include <iostream> // C++ standart giriş/çıkış kütüphanesi olan iostream kütüphanesini programımıza dahil ediyor.
+#include <iostream> // C++ standart giriş/çıkış kütüphanesi olan iostream kütüphanesini programımıza dahil ediyoruz.
 using namespace std;
-/*
+/* using namespace std:
 C++ dilinde, kodlarımızda tanımlanan fonksiyonlar, değişkenler, sınıflar ve diğer öğeler grup halinde yer alır.
 std, C++ standart kütüphanesinde yer alan öğeleri içerir. Bu standart kütüphane, giriş/çıkış işlemleri için kullanılan cout, cin gibi öğeleri içerir.
 using namespace std; ifadesi, std içinde yer alan öğeleri kullanabilmek için kullanılır. Bu şekilde, örneğin cout veya cin gibi öğeleri direkt olarak kullanabiliriz.
