@@ -1,14 +1,21 @@
-#include <iostream> // C++ standart giriş/çıkış kütüphanesi olan iostream kütüphanesini programımıza dahil ediyor.
-using namespace std; // using namespace std; ifadesi, C++ standart kütüphanesindeki öğelerin adını yazmak yerine, std:: ön ekini kullanmaz ve kısaltma yapar. Bu, kodun okunmasını kolaylaştırır ve yazılacak kod miktarını azaltır. Örneğin, std::cout yerine, sadece cout yazarak cout fonksiyonunu kullanabiliriz.
-int main() // C++ programlarının başlatılmasını ve yürütülmesini sağlayan ana fonksiyondur. main() fonksiyonu, C++ dilinde en temel ve zorunlu fonksiyonlardan biridir ve bir C++ programı en az bir main() fonksiyonu içermelidir.
+#include <iostream> // C++ standart giriÅŸ/Ã§Ä±kÄ±ÅŸ kÃ¼tÃ¼phanesi olan iostream kÃ¼tÃ¼phanesini programÄ±mÄ±za dahil ediyor.
+using namespace std;
+/*
+C++ dilinde, kodlarÄ±mÄ±zda tanÄ±mlanan fonksiyonlar, deÄŸiÅŸkenler, sÄ±nÄ±flar ve diÄŸer Ã¶ÄŸeler grup halinde yer alÄ±r.
+std, C++ standart kÃ¼tÃ¼phanesinde yer alan Ã¶ÄŸeleri iÃ§erir. Bu standart kÃ¼tÃ¼phane, giriÅŸ/Ã§Ä±kÄ±ÅŸ iÅŸlemleri iÃ§in kullanÄ±lan cout, cin gibi Ã¶ÄŸeleri iÃ§erir.
+using namespace std; ifadesi, std iÃ§inde yer alan Ã¶ÄŸeleri kullanabilmek iÃ§in kullanÄ±lÄ±r. Bu ÅŸekilde, Ã¶rneÄŸin cout veya cin gibi Ã¶ÄŸeleri direkt olarak kullanabiliriz.
+using namespace std; ifadesi, C++ standart kÃ¼tÃ¼phanesindeki Ã¶ÄŸelerin adÄ±nÄ± yazmak iÃ§in, std:: Ã¶n ekini kullanmak yerine kÄ±saltma yapar.
+Bu, kodun okunmasÄ±nÄ± kolaylaÅŸtÄ±rÄ±r ve yazÄ±lacak kod miktarÄ±nÄ± azaltÄ±r.
+Ã–rneÄŸin, std::cout yerine, sadece cout yazarak cout fonksiyonunu kullanabiliriz.
+*/
+int main()
 {
-    setlocale(LC_ALL,"Turkish"); //Türkçe karakterleri kullanabilmek için. Programın başlangıcında setlocale() fonksiyonu ile programın Türkçe karakter desteğinin açılmasını sağlıyoruz. Bu sayede, Türkçe karakterler doğru bir şekilde yazdırılabilir.
+    setlocale(LC_ALL,"Turkish"); //TÃ¼rkÃ§e karakterleri kullanabilmek iÃ§in. ProgramÄ±n baÅŸlangÄ±cÄ±nda setlocale() fonksiyonu ile programÄ±n TÃ¼rkÃ§e karakter desteÄŸinin aÃ§Ä±lmasÄ±nÄ± saÄŸlÄ±yoruz. Bu sayede, TÃ¼rkÃ§e karakterler doÄŸru bir ÅŸekilde yazdÄ±rÄ±labilir.
 
-    int d_tarih; //Programın başlangıcında setlocale() fonksiyonu ile programın Türkçe karakter desteğinin açılmasını sağlıyoruz. Bu sayede, Türkçe karakterler doğru bir şekilde yazdırılabilir.
-    cout << "Dogum tarihinizi giriniz: "; // cout << "Doğum tarihinizi giriniz: "; // Türkçe karakter için setlocale eklendi.
-    cin >> d_tarih; //d_tarih adlı bir tamsayı değişkeni tanımlanır. Kullanıcıdan doğum tarihini girmesi istenir. Kullanıcının girdiği değer cin ile d_tarih değişkenine atanır.
-    cout << "\nDogum tarihiniz: " << d_tarih<<" dur"; // cout << "\nDoğum tarihiniz: " << d_tarih<<" dur";  // Türkçe karakter için setlocale eklendi.
-    // cout << endl<<"Dogum tarihiniz: " << d_tarih<<" dur"; şeklinde de kullanılabilir.
-    return 0; // C++ dilinde, main() fonksiyonu mutlaka bir return ifadesi ile sonlandırılmalıdır. return 0; ifadesi, main() fonksiyonunun sonlandığını ve programın başarıyla tamamlandığını bildirir.
+    int d_tarih; //ProgramÄ±n baÅŸlangÄ±cÄ±nda setlocale() fonksiyonu ile programÄ±n TÃ¼rkÃ§e karakter desteÄŸinin aÃ§Ä±lmasÄ±nÄ± saÄŸlÄ±yoruz. Bu sayede, TÃ¼rkÃ§e karakterler doÄŸru bir ÅŸekilde yazdÄ±rÄ±labilir.
+    cout << "Dogum tarihinizi giriniz: "; // cout << "DoÄŸum tarihinizi giriniz: "; // TÃ¼rkÃ§e karakter iÃ§in setlocale eklendi.
+    cin >> d_tarih;
+    cout << "\nDogum tarihiniz: " << d_tarih<<" .Nice yaÅŸlarÄ±nÄ±z olsun."; // cout << "\nDoÄŸum tarihiniz: " << d_tarih<<" dur";  // TÃ¼rkÃ§e karakter iÃ§in setlocale eklendi.
+    // cout << endl<<"Dogum tarihiniz: " << d_tarih<<" dur"; ÅŸeklinde de kullanÄ±labilir.
+    return 0;
 }
-
