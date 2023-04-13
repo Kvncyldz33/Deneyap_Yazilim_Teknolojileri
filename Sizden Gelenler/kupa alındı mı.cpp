@@ -2,33 +2,34 @@
 using namespace std;
 int main()
 {
-int sayi;// int veri tipinde sayi değişkeni oluşturuldu.
+int sayi;// int veri tipinde sayi deÄŸiÅŸkeni oluÅŸturuldu.
 const int x=90, y=80, z=70, a=60, b=50;
 
 cout<<"sayi gir: ";
 cin>>sayi;
 if (sayi >= x)
     {
-    cout << sayi<<" puan: yeni lige yükseldin ve şampiyon oldun";
+    cout << sayi<<" puan: yeni lige yÃ¼kseldin ve ÅŸampiyon oldun";
     }
 
 else if (sayi >= y)
     {
-    cout << sayi<<" puan: ligde kaldın ama kupa alamadın";
+    cout << sayi<<" puan: ligde kaldÄ±n ama kupa alamadÄ±n";
     }
 
 else if (sayi >= z)
     {
-    cout << sayi<<" puan: 3.oldun yine kupa alamadın";
+    cout << sayi<<" puan: 3.oldun yine kupa alamadÄ±n";
     }
 
 else if (sayi >= a)
     {
-    cout << sayi<<" puan: alt lige düştün";
+    cout << sayi<<" puan: alt lige dÃ¼ÅŸtÃ¼n";
     }
 
 else
     {
-    cout << sayi<<" puan: kulüp kapandı" ;
+    cout << sayi<<" puan: kulÃ¼p kapandÄ±" ;
     }
 }
+
