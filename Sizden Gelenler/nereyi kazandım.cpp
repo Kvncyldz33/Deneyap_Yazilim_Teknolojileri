@@ -39,4 +39,3 @@ if (sayi >= c)
        "  Bafra Fen Lisesi veya Abdulhamit Han Fen Lisesi kazandı";
     }
 }
-
